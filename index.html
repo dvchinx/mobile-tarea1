@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Balatro</title>
+    <link rel="icon" type="image/png" href="images/poker.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Wiki Balatro</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introduccion">Introducción</a></li>
+                    <li><a href="#jugabilidad">Jugabilidad</a></li>
+                    <li><a href="#cartas">Cartas</a></li>
+                    <li><a href="#estrategias">Estrategias</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="introduccion" class="section">
+            <h2>¿Qué es Balatro?</h2>
+            <p><strong>Balatro</strong> es un videojuego de cartas tipo roguelike donde los jugadores deben crear combinaciones de póker para avanzar a través de diferentes niveles, desbloquear mejoras y enfrentarse a desafíos únicos. Su estilo visual y mecánicas innovadoras lo han convertido en un éxito entre los fanáticos de los juegos de estrategia y azar.</p>
+        </section>
+        <section id="jugabilidad" class="section">
+            <h2>Jugabilidad</h2>
+            <p>El objetivo principal es superar rondas de póker utilizando cartas y potenciadores especiales. Cada partida es diferente gracias a la generación aleatoria de cartas y modificadores, lo que obliga al jugador a adaptarse y planear nuevas estrategias en cada intento.</p>
+        </section>
+        <section id="cartas" class="section">
+            <h2>Tipos de Cartas</h2>
+            <ul>
+                <li><strong>Cartas estándar:</strong> Corazones, diamantes, tréboles y picas, del 2 al As.</li>
+                <li><strong>Cartas Joker:</strong> Otorgan habilidades o bonificaciones únicas.</li>
+                <li><strong>Cartas Tarot:</strong> Modifican el mazo o el juego de formas especiales.</li>
+                <li><strong>Cartas Planetarias:</strong> Mejoran combinaciones específicas de póker.</li>
+            </ul>
+        </section>
+        <section id="estrategias" class="section">
+            <h2>Estrategias y Consejos</h2>
+            <ol>
+                <li>Aprende a combinar Jokers para maximizar tus puntos.</li>
+                <li>Gestiona bien tus recursos y elige sabiamente cuándo usar cartas especiales.</li>
+                <li>Adapta tu estrategia según los modificadores de cada partida.</li>
+                <li>Experimenta con diferentes combinaciones para descubrir sinergias poderosas.</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <section id="etiquetas" class="section">
+            <h2>Etiquetas del Juego</h2>
+            <input type="text" id="tag-search" placeholder="Buscar etiqueta..." autocomplete="off" style="width:100%;max-width:350px;margin:1rem auto 2rem auto;display:block;padding:0.6rem 1rem;border-radius:8px;border:none;font-size:1.1rem;box-shadow:0 1px 6px #0002;">
+            <div class="tags-list" id="tags-list">
+<script src="script.js"></script>
+                <div class="tag-item">
+                    <div>
+                        <strong>Inusual (Uncommon)</strong>
+                        <p>La próxima tienda tendrá un Joker inusual gratis.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Rara (Rare)</strong>
+                        <p>La próxima tienda tendrá un Joker raro gratis.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Negativa (Negative)</strong>
+                        <p>El próximo Joker base que encuentres será Negativo (+1 espacio de Joker) y gratis.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Foil</strong>
+                        <p>El próximo Joker base será Foil (+50 fichas) y gratis.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Holográfica (Holographic)</strong>
+                        <p>El próximo Joker base será Holográfico (+10 Mult) y gratis.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Policromática (Polychrome)</strong>
+                        <p>El próximo Joker base será Policromático (x1.5 Mult) y gratis.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Inversión (Investment)</strong>
+                        <p>Gana $25 tras derrotar al próximo Boss Blind.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Vale (Voucher)</strong>
+                        <p>Añade un vale a la próxima tienda.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Jefe (Boss)</strong>
+                        <p>Vuelve a tirar el próximo Boss Blind.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Estándar (Standard)</strong>
+                        <p>Abre un Mega Standard Pack gratis inmediatamente.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Encanto (Charm)</strong>
+                        <p>Abre un Mega Arcana Pack gratis inmediatamente.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Meteorito (Meteor)</strong>
+                        <p>Abre un Mega Celestial Pack gratis inmediatamente.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Bufón (Buffoon)</strong>
+                        <p>Abre un Mega Buffoon Pack gratis inmediatamente.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Hábil (Handy)</strong>
+                        <p>Gana $1 por cada mano jugada en esta partida.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Basura (Garbage)</strong>
+                        <p>Gana $1 por cada descarte no usado en esta partida.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Etérea (Ethereal)</strong>
+                        <p>Abre un Spectral Pack gratis inmediatamente.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Cupon (Coupon)</strong>
+                        <p>En la próxima tienda, los Jokers, cartas consumibles y sobres son gratis.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Doble (Double)</strong>
+                        <p>Recibes una copia del próximo tag seleccionado (excepto Double).</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Malabares (Juggle)</strong>
+                        <p>+3 tamaño de mano para la próxima ronda solamente.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>D6</strong>
+                        <p>En la próxima tienda, los rerolls empiezan en $0.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Recarga (Top-up)</strong>
+                        <p>Crea hasta 2 Jokers comunes si tienes espacio.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Velocidad (Speed)</strong>
+                        <p>Gana $5 por cada Blind que hayas saltado en esta partida.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Orbital</strong>
+                        <p>Mejora una mano de póker aleatoria en tres niveles.</p>
+                    </div>
+                </div>
+                <div class="tag-item">
+                    <div>
+                        <strong>Economía (Economy)</strong>
+                        <p>Duplica tu dinero (máximo $40 extra).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>Wiki Balatro &copy; 2025 | No oficial | Hecho por fans</p>
+            </div>
+        </footer>
+</body>
+</html>
